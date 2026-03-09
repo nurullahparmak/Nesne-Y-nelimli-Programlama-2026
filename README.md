@@ -1,2 +1,2 @@
-# Nesne-Y-nelimli-Programlama-2026
+# Nesne-Yonelimli-Programlama-2026
 Ders kodları

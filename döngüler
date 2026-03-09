@@ -90,6 +90,54 @@ namespace ConsoleApp1
             karekok= Math.Sqrt(c);
             Console.WriteLine(karekok);
             Console.ReadKey();
+
+            //SORU: Kullanicinin secimine gore sayının 10 dan büyük olup olmadığını kontrol eden kodu yazınız
+
+
+            int sayi = 0;
+
+            while (true)
+            {
+                Console.Write("Bir sayi giriniz: ");
+                sayi = Convert.ToInt32(Console.ReadLine());
+
+                if (sayi > 10)
+                {
+                    Console.WriteLine("Girilen sayi 10 dan buyuktur.");
+                }
+                else
+                {
+                    Console.WriteLine("Girilen sayi 10 dan kucuktur.");
+                }
+                Console.ReadKey();
+
+            //SORU: Kullanicinin secimine gore sayının 10 dan büyük olup olmadığını kontrol eden kodu yazınız
+
+            int sayi;
+
+            do
+            {
+                Console.Write("Bir sayi giriniz: ");
+                sayi = Convert.ToInt32(Console.ReadLine());
+
+                if (sayi > 10)
+                {
+                Console.WriteLine("Girilen sayı 10 dan buyuktur.");
+                }
+                else
+                {
+                Console.WriteLine("Girilen sayı 10 dan kucuktur.");
+                }
+
+                } while (sayi != 0);
+                Console.ReadKey();
+
+
+
+            }
+
+
+
         }
     }
 }
